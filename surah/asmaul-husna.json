@@ -1,0 +1,704 @@
+{
+  "data": [
+
+    {
+      "index": "1",
+      "latin": "আল্লাহ",
+      "arabic": "الله",
+      "translation_id": "আল্লাহ",
+      "translation_en": "The All Beneficent"
+    },
+    {
+      "index": "2",
+      "latin": "আর রাহমান",
+      "arabic": "الرَّحْمَنُ",
+      "translation_id": "পরম দয়ালু, পরম করুণাময়, সবচেয়ে দয়ালু, কল্যাণময়",
+      "translation_en": "The All Beneficent"
+    },
+    {
+      "index": "3",
+      "latin": "আর-রাহীম",
+      "arabic": "الرَّحِيمُ",
+      "translation_id": "অতিশয়-মেহেরবান, অতি দয়ালু",
+      "translation_en": "The Most Merciful"
+    },
+    {
+      "index": "4",
+      "latin": "আল-মালিক",
+      "arabic": "الْمَلِكُ",
+      "translation_id": "সর্বকর্তৃত্বময়, অধিপতি, মালিক",
+      "translation_en": "The King, The Sovereign"
+    },
+    {
+      "index": "5",
+      "latin": "আল-কুদ্দুস",
+      "arabic": "الْقُدُّوسُ",
+      "translation_id": "নিষ্কলুষ, অতি পবিত্র",
+      "translation_en": "The Most Holy"
+    },
+    {
+      "index": "6",
+      "latin": "আস-সালাম",
+      "arabic": "السَّلاَمُ",
+      "translation_id": "নিরাপত্তা-দানকারী, শান্তি-দানকারী, ত্রাণকর্তা, দোষমুক্ত",
+      "translation_en": "Peace and Blessing"
+    },
+    {
+      "index": "7",
+      "latin": "আল-মু'মিন",
+      "arabic": "الْمُؤْمِنُ",
+      "translation_id": "নিরাপত্তা ও ঈমান দানকারী, জামিনদার, সত্য ঘোষণাকারী",
+      "translation_en": "The Guarantor"
+    },
+    {
+      "index": "8",
+      "latin": "আল-মুহাইমিন",
+      "arabic": "الْمُهَيْمِنُ",
+      "translation_id": "পরিপূর্ন রক্ষণাবেক্ষণকারী, রক্ষক, অভিভাবক, প্রতিপালনকারী",
+      "translation_en": "The Guardian, the Preserver"
+    },
+    {
+      "index": "9",
+      "latin": "আল-আ'জীজ",
+      "arabic": "الْعَزِيزُ",
+      "translation_id": "পরাক্রমশালী, অপরাজেয়, সর্বাধিক সম্মানিত, মহাসম্মানিত",
+      "translation_en": "The Almighty, the Self Sufficient"
+    },
+    {
+      "index": "10",
+      "latin": "আল-জাব্বার",
+      "arabic": "الْجَبَّارُ",
+      "translation_id": "দুর্নিবার, মহাপ্রতাপশালী, অতীব মহিমান্বিত",
+      "translation_en": "The Powerful, the Irresistible"
+    },
+    {
+      "index": "11",
+      "latin": "আল-মুতাকাব্বিইর",
+      "arabic": "الْمُتَكَبِّرُ",
+      "translation_id": "Yang Memiliki Mutlak sifat Megah,Yang Memiliki Kebesaran",
+      "translation_en": "The Tremendous"
+    },
+    {
+      "index": "12",
+      "latin": "আল-খালিক্ব",
+      "arabic": "الْخَالِقُ",
+      "translation_id": "ষ্টিকর্তা, সৃষ্টিকারী",
+      "translation_en": "The Creator"
+    },
+    {
+      "index": "13",
+      "latin": "আল-বারী’",
+      "arabic": "الْبَارِئُ",
+      "translation_id": "সঠিকভাবে সৃষ্টিকারী",
+      "translation_en": "The Maker"
+    },
+    {
+      "index": "14",
+      "latin": "আল-মুছউইর",
+      "arabic": "الْمُصَوِّرُ",
+      "translation_id": "আকৃতি-দানকারী",
+      "translation_en": "The Fashioner of Forms"
+    },
+    {
+      "index": "15",
+      "latin": "আল-গফ্ফার",
+      "arabic": "الْغَفَّارُ",
+      "translation_id": "পরম ক্ষমাশীল, অতি ক্ষমাশীল",
+      "translation_en": "The Ever Forgiving"
+    },
+    {
+      "index": "16",
+      "latin": "আল-ক্বাহার",
+      "arabic": "الْقَهَّارُ",
+      "translation_id": "কঠোর, মহাপ্রতাবশালী, দমনকারী",
+      "translation_en": "The All Compelling Subduer"
+    },
+    {
+      "index": "17",
+      "latin": "আল-ওয়াহ্হাব",
+      "arabic": "الْوَهَّابُ",
+      "translation_id": "সবকিছু দানকারী, দানশীল, স্থাপনাকারী",
+      "translation_en": "The Bestower"
+    },
+    {
+      "index": "18",
+      "latin": "আর-রজ্জাক্ব",
+      "arabic": "الرَّزَّاقُ",
+      "translation_id": "রিযিকদাতা",
+      "translation_en": "The Ever Providing"
+    },
+    {
+      "index": "19",
+      "latin": "আল ফাত্তাহ",
+      "arabic": "الْفَتَّاحُ",
+      "translation_id": "বিজয়দানকারী, শ্রেষ্ঠ ফয়সালাকারী, প্রারম্ভকারী",
+      "translation_en": "The Opener, the Victory Giver"
+    },
+    {
+      "index": "20",
+      "latin": "আল-আ'লীম",
+      "arabic": "اَلْعَلِيْمُ",
+      "translation_id": "সর্বজ্ঞ, মহাজ্ঞানী",
+      "translation_en": "The All Knowing, the Omniscient"
+    },
+    {
+      "index": "21",
+      "latin": "আল-ক্ববিদ্ব'",
+      "arabic": "الْقَابِضُ",
+      "translation_id": "নিয়ন্ত্রণকারী, সরল পথ প্রদর্শনকারী",
+      "translation_en": "The Restrainer, the Straightener"
+    },
+    {
+      "index": "22",
+      "latin": "আল-বাসিত",
+      "arabic": "الْبَاسِطُ",
+      "translation_id": "প্রশস্তকারী",
+      "translation_en": "The Expander, the Munificent"
+    },
+    {
+      "index": "23",
+      "latin": "আল-খফিদ্বু",
+      "arabic": "الْخَافِضُ",
+      "translation_id": "অবনতকারী (কাফির ও মুশরিকদের, অবিশ্বাসীদের অপমানকারী)",
+      "translation_en": "The Abaser"
+    },
+    {
+      "index": "24",
+      "latin": "আর-রফীই'",
+      "arabic": "الرَّافِعُ",
+      "translation_id": "উন্নতকারী, উঁচুকারী",
+      "translation_en": "The Exalter"
+    },
+    {
+      "index": "25",
+      "latin": " আল-মুই'জ্ব",
+      "arabic": "الْمُعِزُّ",
+      "translation_id": "সম্মান-দানকারী",
+      "translation_en": "The Giver of Honor"
+    },
+    {
+      "index": "26",
+      "latin": "আল-মুদ্বি'ল্লু",
+      "arabic": "المُذِلُّ",
+      "translation_id": "(অবিশ্বাসীদের) বেইজ্জতকারী, সম্মান হরণকারী",
+      "translation_en": "The Giver of Dishonor"
+    },
+    {
+      "index": "27",
+      "latin": "আস্-সামিই'",
+      "arabic": "السَّمِيعُ",
+      "translation_id": "সর্বশ্রোতা",
+      "translation_en": "The All Hearing"
+    },
+    {
+      "index": "28",
+      "latin": "আল-বাছীর",
+      "arabic": "الْبَصِيرُ",
+      "translation_id": "সর্ববিষয়-দর্শনকারী, সর্বদ্রষ্টা",
+      "translation_en": "The All Seeing"
+    },
+    {
+      "index": "29",
+      "latin": "আল-হা'কাম",
+      "arabic": "الْحَكَمُ",
+      "translation_id": "অটল বিচারক, মহা বিচারপতি, হুকুমদাতা",
+      "translation_en": "The Judge, the Arbitrator"
+    },
+    {
+      "index": "30",
+      "latin": "আল-আ'দল",
+      "arabic": "الْعَدْلُ",
+      "translation_id": "পরিপূর্ণ-ন্যায়বিচারক, নিখুঁত, ন্যায় বিচারক",
+      "translation_en": "The Utterly Just"
+    },
+    {
+      "index": "31",
+      "latin": "আল-লাতীফ",
+      "arabic": "اللَّطِيفُ",
+      "translation_id": "সকল-গোপন-বিষয়ে-অবগত, সূক্ষ্মদর্শী, অমায়িক",
+      "translation_en": "The Subtly Kind"
+    },
+    {
+      "index": "32",
+      "latin": "আল-খ'বীর",
+      "arabic": "الْخَبِيرُ",
+      "translation_id": "সকল ব্যাপারে জ্ঞাত, সর্বজ্ঞ",
+      "translation_en": "The All Aware"
+    },
+    {
+      "index": "33",
+      "latin": " আল-হা'লীম",
+      "arabic": "الْحَلِيمُ",
+      "translation_id": "অত্যন্ত ধৈর্যশীল, মহা সহনশীল, প্রশ্রয়দাতা",
+      "translation_en": "The Forbearing, the Indulgent"
+    },
+    {
+      "index": "34",
+      "latin": "আল-আ'জীম",
+      "arabic": "الْعَظِيمُ",
+      "translation_id": "সর্বোচ্চ-মর্যাদাশীল, মহা মর্যাদাপূর্ণ, অতি বিরাট",
+      "translation_en": "The Magnificent, the Infinite"
+    },
+    {
+      "index": "35",
+      "latin": "আল-গফুর",
+      "arabic": "الْغَفُورُ",
+      "translation_id": "পরম ক্ষমাশীল, মার্জনাকারী, অতীব ক্ষমাশীল",
+      "translation_en": "The All Forgiving"
+    },
+    {
+      "index": "36",
+      "latin": "আশ্-শাকুর",
+      "arabic": "الشَّكُورُ",
+      "translation_id": "গুনগ্রাহী, সুবিবেচক",
+      "translation_en": "The Grateful"
+    },
+    {
+      "index": "37",
+      "latin": "আল-আ'লিইউ",
+      "arabic": "الْعَلِيُّ",
+      "translation_id": "উচ্চ-মর্যাদাশীল",
+      "translation_en": "The Sublimely Exalted"
+    },
+    {
+      "index": "38",
+      "latin": "আল-কাবিইর",
+      "arabic": "الْكَبِيرُ",
+      "translation_id": "সুমহান, অতি বিরাট",
+      "translation_en": "The Great"
+    },
+    {
+      "index": "39",
+      "latin": "আল-হা'ফীজ",
+      "arabic": "الْحَفِيظُ",
+      "translation_id": "সংরক্ষণকারী",
+      "translation_en": "The Preserver"
+    },
+    {
+      "index": "40",
+      "latin": "আল-মুক্বীত",
+      "arabic": "المُقيِت",
+      "translation_id": "সকলের জীবনোপকরণ-দানকারী, সংরক্ষণকারী, লালনপালনকারী",
+      "translation_en": "The Nourisher"
+    },
+    {
+      "index": "41",
+      "latin": " আল-হাসীব",
+      "arabic": "الْحسِيبُ",
+      "translation_id": "হিসাব-গ্রহণকারী, মহা মীমাংসাকারী",
+      "translation_en": "The Reckoner"
+    },
+    {
+      "index": "42",
+      "latin": "আল-জালীল",
+      "arabic": "الْجَلِيلُ",
+      "translation_id": "পরম মর্যাদার অধিকারী, গৌরবান্বিত",
+      "translation_en": "The Majestic"
+    },
+    {
+      "index": "43",
+      "latin": "আল-কারীম",
+      "arabic": "الْكَرِيمُ",
+      "translation_id": "সুমহান দাতা, মহা সম্মানিত, মহা দয়ালু",
+      "translation_en": "The Bountiful, the Generous"
+    },
+    {
+      "index": "44",
+      "latin": "আর-রক্বীব",
+      "arabic": "الرَّقِيبُ",
+      "translation_id": "তত্ত্বাবধায়ক",
+      "translation_en": "The Watchful"
+    },
+    {
+      "index": "45",
+      "latin": "আল-মুজীব",
+      "arabic": "الْمُجِيبُ",
+      "translation_id": "জবাব-দানকারী, সাড়া দানকারী, উত্তরদাতা, দো‘আ কবুলকারী",
+      "translation_en": "The Responsive, the Answerer"
+    },
+    {
+      "index": "46",
+      "latin": "আল-ওয়াসি'",
+      "arabic": "الْوَاسِعُ",
+      "translation_id": "সর্ব-ব্যাপী, অসীম, ব্যাপক",
+      "translation_en": "The Vast, the All Encompassing"
+    },
+    {
+      "index": "47",
+      "latin": "আল-হাকীম",
+      "arabic": "الْحَكِيمُ",
+      "translation_id": "পরম-প্রজ্ঞাময়, সুবিজ্ঞ, সুদক্ষ",
+      "translation_en": "The Wise"
+    },
+    {
+      "index": "48",
+      "latin": "আল-ওয়াদুদ",
+      "arabic": "الْوَدُودُ",
+      "translation_id": "(বান্দাদের প্রতি) সদয়, প্রেমময়, পরম স্নেহশীল",
+      "translation_en": "The Loving, the Kind One"
+    },
+    {
+      "index": "49",
+      "latin": "আল-মাজীদ",
+      "arabic": "الْمَجِيدُ",
+      "translation_id": "সকল-মর্যাদার-অধিকারী, মহিমান্বিত, সম্মানিত",
+      "translation_en": "The All Glorious"
+    },
+    {
+      "index": "50",
+      "latin": "আল-বাই'ছ'",
+      "arabic": "الْبَاعِثُ",
+      "translation_id": "পুনুরুজ্জীবিতকারী",
+      "translation_en": "The Raiser of the Dead"
+    },
+    {
+      "index": "51",
+      "latin": "আশ্-শাহীদ",
+      "arabic": "الشَّهِيدُ",
+      "translation_id": "সর্বজ্ঞ-স্বাক্ষী, প্রত্যক্ষদর্শী",
+      "translation_en": "The Witness"
+    },
+    {
+      "index": "52",
+      "latin": "আল-হা'ক্ব",
+      "arabic": "الْحَقُّ",
+      "translation_id": "পরম সত্য",
+      "translation_en": "The Truth, the Real"
+    },
+    {
+      "index": "53",
+      "latin": "আল-ওয়াকিল",
+      "arabic": "الْوَكِيلُ",
+      "translation_id": "পরম নির্ভরযোগ্য কর্ম-সম্পাদনকারী, তত্ত্বাবধায়ক, সহায় প্রদানকারী, আস্থাভাজন উকিল",
+      "translation_en": "The Trustee, the Dependable"
+    },
+    {
+      "index": "54",
+      "latin": "আল-ক্বউইউ",
+      "arabic": "الْقَوِيُّ",
+      "translation_id": "পরম-শক্তির-অধিকারী",
+      "translation_en": "The Strong"
+    },
+    {
+      "index": "55",
+      "latin": "আল-মাতীন",
+      "arabic": "الْمَتِينُ",
+      "translation_id": "সুদৃঢ়, সুস্থির",
+      "translation_en": "The Firm, the Steadfast"
+    },
+    {
+      "index": "56",
+      "latin": "আল-ওয়ালিইউ",
+      "arabic": "الْوَلِيُّ",
+      "translation_id": "অভিভাবক ও সাহায্যকারী",
+      "translation_en": "The Protecting Friend, Patron, and Helper"
+    },
+    {
+      "index": "57",
+      "latin": "আল-হা'মীদ",
+      "arabic": "الْحَمِيدُ",
+      "translation_id": "সকল প্রশংসার অধিকারী, সকল প্রশংসার দাবীদার, মহা প্রশংসনীয়\n",
+      "translation_en": "The All Praiseworthy"
+    },
+    {
+      "index": "5",
+      "latin": "আল-মুহছী",
+      "arabic": "الْمُحْصِي",
+      "translation_id": "সকল সৃষ্টির ব্যপারে অবগত",
+      "translation_en": "The Accounter, the Numberer of All"
+    },
+    {
+      "index": "59",
+      "latin": "আল-মুব্দি'",
+      "arabic": "الْمُبْدِئُ",
+      "translation_id": "প্রথমবার-সৃষ্টিকর্তা, অগ্রণী, প্রথম প্রবর্তক",
+      "translation_en": "The Producer, Originator, and Initiator of all"
+    },
+    {
+      "index": "60",
+      "latin": "আল-মুঈ'দ",
+      "arabic": "الْمُعِيدُ",
+      "translation_id": "পুনরায়-সৃষ্টিকর্তা",
+      "translation_en": "The Reinstater Who Brings Back All"
+    },
+    {
+      "index": "61",
+      "latin": "আল-মুহ'য়ী",
+      "arabic": "الْمُحْيِي",
+      "translation_id": "জীবন-দানকারী",
+      "translation_en": "The Giver of Life"
+    },
+    {
+      "index": "62",
+      "latin": "আল-মুমীত",
+      "arabic": "اَلْمُمِيتُ",
+      "translation_id": "মৃত্যু-দানকারী",
+      "translation_en": "The Bringer of Death, the Destroyer"
+    },
+    {
+      "index": "63",
+      "latin": "আল-হাইয়্যু",
+      "arabic": "الْحَيُّ",
+      "translation_id": "চিরঞ্জীব, যার কোন শেষ নেই",
+      "translation_en": "The Ever Living"
+    },
+    {
+      "index": "64",
+      "latin": "আল-ক্বাইয়্যুম",
+      "arabic": "الْقَيُّومُ",
+      "translation_id": "মস্তকিছুর ধারক ও সংরক্ষণকারী",
+      "translation_en": "The Self Subsisting Sustainer of All"
+    },
+    {
+      "index": "65",
+      "latin": "আল-ওয়াজিদ",
+      "arabic": "الْوَاجِدُ",
+      "translation_id": "অফুরন্ত ভান্ডারের অধিকারী",
+      "translation_en": "The Perceiver, the Finder, the Unfailing"
+    },
+    {
+      "index": "66",
+      "latin": "আল-মুহীত",
+      "arabic": "المحيطُ",
+      "translation_id": "পরিবেষ্টনকারী, সর্ব বেষ্টনকারী",
+      "translation_en": "The Encompassing"
+    },
+    {
+      "index": "67",
+      "latin": "আল-ওয়াহি'দ",
+      "arabic": "الْواحِدُ",
+      "translation_id": "এক ও অদ্বিতীয়",
+      "translation_en": "The One, The Unique, Manifestation of Unity"
+    },
+    {
+      "index": "68",
+      "latin": "আছ্-ছমাদ",
+      "arabic": "الصَّمَدُ",
+      "translation_id": "অমুখাপেক্ষী,অবিনশ্বর, চিরন্তন, স্বয়ং সম্পূর্ণ",
+      "translation_en": "The Self Sufficient, the Impregnable,the Eternally Besought of All, the Everlasting"
+    },
+    {
+      "index": "69",
+      "latin": "আল-ক্বদির",
+      "arabic": "الْقَادِرُ",
+      "translation_id": "সর্বশক্তিমান, মহা ক্ষমতাধর",
+      "translation_en": "The All Able"
+    },
+    {
+      "index": "70",
+      "latin": "আল-মুক্ব্তাদির",
+      "arabic": "الْمُقْتَدِرُ",
+      "translation_id": "নিরঙ্কুশ-সিদ্বান্তের-অধিকারী",
+      "translation_en": "The All Determiner, the Dominant"
+    },
+    {
+      "index": "71",
+      "latin": "আল-মুক্বদ্দিম",
+      "arabic": "الْمُقَدِّمُ",
+      "translation_id": "অগ্রসারক, সর্বাগ্রে সহায়তা প্রদানকারী",
+      "translation_en": "The Expediter, He who brings forward"
+    },
+    {
+      "index": "72",
+      "latin": "আল-মুয়াক্খির",
+      "arabic": "الْمُؤَخِّرُ",
+      "translation_id": "অবকাশ দানকারী, বিলম্বকারী",
+      "translation_en": "The Delayer, He who puts far away"
+    },
+    {
+      "index": "73",
+      "latin": "আল-আউয়াল",
+      "arabic": "الأوَّلُ",
+      "translation_id": "অনাদি, প্রথম",
+      "translation_en": "The First"
+    },
+    {
+      "index": "74",
+      "latin": "আল-আখির",
+      "arabic": "الآخِرُ",
+      "translation_id": "অনন্ত, সর্বশেষ",
+      "translation_en": "The Last"
+    },
+    {
+      "index": "75",
+      "latin": "আজ-জ'হির",
+      "arabic": "الظَّاهِرُ",
+      "translation_id": "সম্পূর্নরূপে-প্রকাশিত, প্রকাশ্য",
+      "translation_en": "The Manifest; the All Victorious"
+    },
+    {
+      "index": "76",
+      "latin": "আল-বাত্বিন",
+      "arabic": "الْبَاطِنُ",
+      "translation_id": "দৃষ্টি হতে অদৃশ্য, গোপন",
+      "translation_en": "The Hidden; the All Encompassing"
+    },
+    {
+      "index": "77",
+      "latin": "আল-ওয়ালি",
+      "arabic": "الْوَالِي",
+      "translation_id": "সমস্ত কিছুর অভিভাবক",
+      "translation_en": "The Patron"
+    },
+    {
+      "index": "78",
+      "latin": "আল-মুতাআ'লি",
+      "arabic": "الْمُتَعَالِي",
+      "translation_id": "সৃষ্টির গুনাবলীর উর্দ্ধে",
+      "translation_en": "The Self Exalted"
+    },
+    {
+      "index": "79",
+      "latin": "আল-বার্",
+      "arabic": "الْبَرُّ",
+      "translation_id": "পরম-উপকারী, অণুগ্রহশীল, কল্যাণকারী",
+      "translation_en": "The Most Kind and Righteous"
+    },
+    {
+      "index": "80",
+      "latin": "আত্-তাওয়াব",
+      "arabic": "التَّوَابُ",
+      "translation_id": "তাওবার তাওফিক দানকারী এবং কবুলকারী, ক্ষমাকারী",
+      "translation_en": "The Ever Returning, Ever Relenting"
+    },
+    {
+      "index": "81",
+      "latin": "আল-মুনতাক্বিম",
+      "arabic": "الْمُنْتَقِمُ",
+      "translation_id": "প্রতিশোধ-গ্রহণকারী",
+      "translation_en": "The Avenger"
+    },
+    {
+      "index": "82",
+      "latin": "আল-আ'ফঊ",
+      "arabic": "العَفُوُّ",
+      "translation_id": "পরম-উদার, শাস্তি মউকুফকারী, গুনাহ ক্ষমাকারী, পাপ মোচনকারী",
+      "translation_en": "The Pardoner, the Effacer of Sins"
+    },
+    {
+      "index": "83",
+      "latin": "আর-রউফ",
+      "arabic": "الرَّؤُوفُ",
+      "translation_id": "পরম-স্নেহশীল, সদয়, সমবেদনা প্রকাশকারী, দয়াশীল",
+      "translation_en": "The Compassionate, the All Pitying"
+    },
+    {
+      "index": "84",
+      "latin": "মালিকুল-মুলক",
+      "arabic": "مَالِكُالْمُلْكِ",
+      "translation_id": "সমগ্র জগতের বাদশাহ্",
+      "translation_en": "The Owner of All Sovereignty"
+    },
+    {
+      "index": "85",
+      "latin": "যুল-জালালি-ওয়াল-ইকরাম",
+      "arabic": "ذُوالْجَلاَلِوَالإكْرَامِ",
+      "translation_id": "মহিমান্বিত ও দয়াবান সত্তা, মহা মর্যাদাবান, মহা মহত্ত্ব ও মহা সম্মানিত",
+      "translation_en": "The Lord of Majesty and Generosity"
+    },
+
+
+    {
+      "index": "86",
+      "latin": "আল-মুক্ব্সিত",
+      "arabic": "الْمُقْسِطُ",
+      "translation_id": "কদারের হক-আদায়কারী",
+      "translation_en": "The Equitable, the Requiter"
+    },
+
+
+
+
+    {
+      "index": "87",
+      "latin": "আল-জামিই'",
+      "arabic": "الْجَامِعُ",
+      "translation_id": "একত্রকারী, সমবেতকারী",
+      "translation_en": "The Gatherer, the Unifier"
+    },
+    {
+      "index": "88",
+      "latin": "আল-গণিই'",
+      "arabic": "الْغَنِيُّ",
+      "translation_id": "অমুখাপেক্ষী ধনী",
+      "translation_en": "The All Rich, the Independent"
+    },
+    {
+      "index": "89",
+      "latin": "আল-মুগণিই'",
+      "arabic": "الْمُغْنِي",
+      "translation_id": "পরম-অভাবমোচনকারী, সমৃদ্ধকারী, উদ্ধারকারী",
+      "translation_en": "The Enricher, the Emancipator"
+    },
+    {
+      "index": "90",
+      "latin": "আল-মানিই'",
+      "arabic": "اَلْمَانِعُ",
+      "translation_id": "অকল্যাণরোধক, প্রতিরোধকারী, রক্ষাকর্তা, নিষেধকারী, বারণকারী",
+      "translation_en": "The Withholder, the Shielder, the Defender"
+    },
+    {
+      "index": "91",
+      "latin": "আয্-যর",
+      "arabic": "الضَّارَّ",
+      "translation_id": "ক্ষতিসাধনকারী, যন্ত্রনাদানকারী, উৎপীড়নকারী",
+      "translation_en": "The Distressor, the Harmer"
+    },
+    {
+      "index": "92",
+      "latin": "আন্-নাফিই'",
+      "arabic": "النَّافِعُ",
+      "translation_id": "কল্যাণকারী, অনুগ্রাহক, উপকারকারী, হিতকারী",
+      "translation_en": "The Propitious, the Benefactor"
+    },
+    {
+      "index": "93",
+      "latin": "আন্-নূর",
+      "arabic": "النُّورُ",
+      "translation_id": "পরম-আলো, আলোক",
+      "translation_en": "The Light"
+    },
+    {
+      "index": "94",
+      "latin": "আল-হাদী",
+      "arabic": "الْهَادِي",
+      "translation_id": "পথ-প্রদর্শক, হিদায়েতকারী",
+      "translation_en": "The Guide"
+    },
+    {
+      "index": "95",
+      "latin": "আল-বাদীই",
+      "arabic": "الْبَدِيعُ",
+      "translation_id": "অতুলনীয়",
+      "translation_en": "Incomparable, the Originator"
+    },
+    {
+      "index": "96",
+      "latin": "আল-বাক্বী",
+      "arabic": "اَلْبَاقِي",
+      "translation_id": "চিরস্থায়ী, অবিনশ্বর",
+      "translation_en": "The Ever Enduring and Immutable"
+    },
+    {
+      "index": "97",
+      "latin": "আল-ওয়ারিস'",
+      "arabic": "الْوَارِثُ",
+      "translation_id": "উত্তরাধিকারী",
+      "translation_en": "The Heir, the Inheritor of All"
+    },
+    {
+      "index": "98",
+      "latin": "আর-রাশীদ",
+      "arabic": "الرَّشِيدُ",
+      "translation_id": "সঠিক পথ-প্রদর্শক, বিচক্ষণ, সচেতন",
+      "translation_en": "The Guide, Infallible Teacher, and Knower"
+    },
+    {
+      "index": "99",
+      "latin": "আস-সবুর",
+      "arabic": "الصَّبُورُ",
+      "translation_id": "অত্যধিক ধৈর্যধারণকারী",
+      "translation_en": "The Patient"
+    }
+  ]
+}
