@@ -5,7 +5,6 @@ import 'package:al_quran/ui/about.dart';
 import 'package:al_quran/ui/compass.dart';
 import 'package:al_quran/ui/home.dart';
 import 'package:al_quran/ui/settings.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

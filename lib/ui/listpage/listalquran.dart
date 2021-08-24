@@ -23,7 +23,7 @@ class _ListAlquranState extends State<ListAlquran> {
                 children: snapshot.data
                     .map((data) => CardSurah(
                           title: data.latin,
-                           subtitle: data.translation,
+                          subtitle: data.translation,
                           surah: data.index.toString(),
                           ayah: data.ayahCount.toString(),
                           arabic: data.arabic.toString(),

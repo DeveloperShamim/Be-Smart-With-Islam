@@ -61,10 +61,11 @@ class _AboutState extends State<About> {
             //   ),
             // ),
             Card(
-              elevation: 0,
+              elevation: 2,
               child: ListTile(
                 //title: Text('Application'),
-                trailing: Text('Developed by Mohammad Shamim Hossain'),
+                title: Text("Developed by Mohammad Shamim Hossain"),
+                subtitle: Text("Email: mohammadshamim.1998@yahoo.com"),
               ),
             ),
             Spacer(),

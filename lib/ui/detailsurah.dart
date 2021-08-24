@@ -53,28 +53,37 @@ class _DetailSurahState extends State<DetailSurah> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            ListTile(
-                              leading:
-                                  Container(
-                                    padding: EdgeInsets.all(5),
-                                    //margin: EdgeInsets.only(right: 2,top: 2,left: 20),
-                                    decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                                      border: Border.all(
-                                        color: Colors.black,
-                                        width: 1,
-                                      ),
+                            Card(
+                              elevation: 2,
+                              color: Colors.indigo[100],
+                              child: ListTile(
+                                leading: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(5),
+                                  //margin: EdgeInsets.only(right: 2,top: 2,left: 20),
+                                  decoration: BoxDecoration(
+                                    borderRadius:
+                                        BorderRadius.all(Radius.circular(10.0)),
+                                    border: Border.all(
+                                      color: Colors.white,
+                                      width: 1,
                                     ),
-                                    child: Text(snapshot.data.text.keys.elementAt(i),style: TextStyle(
-                                      fontSize: 20,
-                                    ),),
                                   ),
-                              title: Text(
-                                '${snapshot.data.text[key]}',
-                                textAlign: TextAlign.end,
-                                style: TextStyle(
-                                  fontSize: ui.fontSize,
-                                  height: 1.5,
+                                  child: Text(
+                                    snapshot.data.text.keys.elementAt(i),
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                ),
+                                title: Text(
+                                  '${snapshot.data.text[key]}',
+                                  textAlign: TextAlign.end,
+                                  style: TextStyle(
+                                    fontFamily: 'arabic',
+                                    fontSize: ui.fontSize,
+                                    height: 1.5,
+                                  ),
                                 ),
                               ),
                             ),

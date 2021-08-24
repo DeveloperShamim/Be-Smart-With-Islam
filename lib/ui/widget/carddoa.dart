@@ -25,12 +25,22 @@ class CardDoa extends StatelessWidget {
       child: Card(
         elevation: 3.0,
         child: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("images/arabicpattern1.JPG"),
+              fit: BoxFit.fitWidth,
+              alignment: Alignment.topCenter,
+            ),
+          ),
           padding: EdgeInsets.all(6),
           child: ListTile(
-            title: Text(title,style: TextStyle(height: 1.5, fontSize: 20,fontWeight: FontWeight.w700),),
+            title: Text(
+              title,
+              style: TextStyle(
+                  height: 1.5, fontSize: 20, fontWeight: FontWeight.w700),
+            ),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-
               children: <Widget>[
                 Padding(
                   padding:
@@ -40,19 +50,30 @@ class CardDoa extends StatelessWidget {
                       Text(
                         arabic,
                         textAlign: TextAlign.right,
-                        style: TextStyle(height: 1.5,  fontSize: 22,fontWeight: FontWeight.w500),
+                        style: TextStyle(
+                            height: 1.5,
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'উচ্চারণ :  '+ latin,
+                        'উচ্চারণ :  ' + latin,
                         textAlign: TextAlign.start,
-                        style: TextStyle(height: 1.5, fontSize: 14,fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                            height: 1.5,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
                 ),
-                if (terjemahan) Text("অর্থ : "+translate,
-                  style: TextStyle(height: 1.5, fontSize: 14,),
-                ),
+                if (terjemahan)
+                  Text(
+                    "অর্থ : " + translate,
+                    style: TextStyle(
+                      height: 1.5,
+                      fontSize: 14,
+                    ),
+                  ),
               ],
             ),
           ),

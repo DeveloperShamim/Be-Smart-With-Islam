@@ -1,7 +1,4 @@
-import 'package:al_quran/data/utils/data.dart';
-import 'package:al_quran/data/utils/style.dart';
 import 'package:al_quran/ui/about.dart';
-import 'package:al_quran/ui/listpage/ayatkursi.dart';
 import 'package:al_quran/ui/listpage/jadwalsholat.dart';
 import 'package:al_quran/ui/listpage/listalquran.dart';
 import 'package:al_quran/ui/listpage/listasmaul.dart';
@@ -21,7 +18,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(initialIndex: 0, length: 5, vsync: this);
+    _tabController = TabController(initialIndex: 0, length: 4, vsync: this);
   }
 
   @override
@@ -39,8 +36,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           return [
             Container(
               child: SliverAppBar(
-                //backgroundColor: Colors.red,
-
+                backgroundColor: Color(0xFFC19870),
                 pinned: true,
                 floating: true,
                 actions: <Widget>[
@@ -122,31 +118,15 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                     ),
                   ),
                 ),
-                expandedHeight: 150.0,
+                expandedHeight: 180.0,
                 bottom: TabBar(
-                  indicator: BoxDecoration(
-                    color: Color(0xFF0F1D3A),
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(15),
-                        topRight: Radius.circular(15)),
-                  ), // Creates border
-
                   controller: _tabController,
-                  indicatorColor: Colors.transparent,
+                  indicatorColor: Colors.white,
                   labelColor: Colors.white,
                   unselectedLabelColor: Colors.white.withOpacity(0.6),
                   labelPadding: EdgeInsets.symmetric(horizontal: 20.0),
                   isScrollable: true,
                   tabs: [
-                    Tab(
-                      child: Text(
-                        'নামাজের সময়',
-                        style: TextStyle(
-                          fontSize: 16.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
                     Tab(
                       child: Text(
                         'আল কোরআন',
@@ -156,6 +136,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                         ),
                       ),
                     ),
+
                     Tab(
                       child: Text(
                         'দুআ',
@@ -176,13 +157,22 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                     ),
                     Tab(
                       child: Text(
-                        'আয়াত কুর্সি',
+                        'নামাজের সময়',
                         style: TextStyle(
                           fontSize: 16.0,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
+                    // Tab(
+                    //   child: Text(
+                    //     'আয়াত কুর্সি',
+                    //     style: TextStyle(
+                    //       fontSize: 16.0,
+                    //       fontWeight: FontWeight.bold,
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
@@ -192,11 +182,12 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         body: TabBarView(
           controller: _tabController,
           children: <Widget>[
-            JadwalSholat(),
             ListAlquran(),
+
             ListDoa(),
             ListAsmaul(),
-            AyatKursi(),
+            JadwalSholat(),
+            //AyatKursi(),
           ],
         ),
       ),
@@ -219,7 +210,7 @@ class Drawers extends StatelessWidget {
           DrawerHeader(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/islamicback.jpg'),
+                image: AssetImage('images/forTab.JPG'),
                 fit: BoxFit.fill,
               ),
             ),

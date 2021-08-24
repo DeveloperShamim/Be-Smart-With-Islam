@@ -17,27 +17,36 @@ class CardAsmaul extends StatelessWidget {
       elevation: 2.0,
       child: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              arabic,
-              style: TextStyle(fontSize: 30.0),
+        child: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("images/arabicpattern1.JPG"),
+              fit: BoxFit.fill,
+              alignment: Alignment.topCenter,
             ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Text(title),
-            SizedBox(
-              height: 20.0,
-            ),
-            Text(
-              translate,
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 10),
-            ),
-          ],
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                arabic,
+                style: TextStyle(fontSize: 30.0),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(title),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(
+                translate,
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 10),
+              ),
+            ],
+          ),
         ),
       ),
     );

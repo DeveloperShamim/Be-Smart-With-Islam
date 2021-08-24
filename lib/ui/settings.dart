@@ -4,7 +4,6 @@ import 'package:al_quran/data/uistate.dart';
 import 'package:al_quran/ui/widget/cardsetting.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 class Settings extends StatefulWidget {
   @override
   _SettingsState createState() => _SettingsState();
@@ -15,6 +14,7 @@ class _SettingsState extends State<Settings> {
   Widget build(BuildContext context) {
     var ui = Provider.of<UiState>(context);
     var dark = Provider.of<ThemeNotifier>(context);
+
     var loc = Provider.of<LocationNotifier>(context);
     return Scaffold(
         backgroundColor: Color(0xFF0F1D3A),
@@ -64,13 +64,13 @@ class _SettingsState extends State<Settings> {
                 onChanged: (newValue) => ui.terjemahan = newValue,
               ),
             ),
-            CardSetting(
-              title: 'তাফসীর',
-              leading: Switch(
-                value: ui.tafsir,
-                onChanged: (newValue) => ui.tafsir = newValue,
-              ),
-            ),
+            // CardSetting(
+            //   title: 'তাফসীর',
+            //   leading: Switch(
+            //     value: ui.tafsir,
+            //     onChanged: (newValue) => ui.tafsir = newValue,
+            //   ),
+            // ),
             CardSlider(
               title: 'আরবি লেখার আকার',
               slider: Slider(

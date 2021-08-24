@@ -78,7 +78,6 @@ class _CompassState extends State<Compass> {
                   ),
                 ),
                 Text(
-
                   '${_lastReadAt ?? 'No Data'}',
                   style: TextStyle(
                     color: Colors.white,

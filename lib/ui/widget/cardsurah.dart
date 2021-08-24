@@ -18,6 +18,13 @@ class CardSurah extends StatelessWidget {
       child: Card(
           elevation: 0.0,
           child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("images/arabicpattern1.JPG"),
+                fit: BoxFit.fitWidth,
+                alignment: Alignment.topCenter,
+              ),
+            ),
             padding: EdgeInsets.all(12.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

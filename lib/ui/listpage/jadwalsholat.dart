@@ -28,26 +28,33 @@ class _JadwalSholatState extends State<JadwalSholat> {
                 shrinkWrap: true,
                 children: <Widget>[
                   Card(
-                    color:Colors.white,
+                    color: Colors.white,
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          ListTile(
-                            title: Text(
-
-                              '${snapshot.data.results.location.city}',
-
-                            ),
-                            subtitle:
-                                Text(snapshot.data.results.location.country),
-                            trailing: Text(
-                              '${f.format(snapshot.data.results.datetime[0].date.gregorian)}',
-                              textAlign: TextAlign.center,
-                            ),
-                          )
-                        ],
+                      child: Container(
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("images/arabicpattern1.JPG"),
+                            fit: BoxFit.cover,
+                            alignment: Alignment.topCenter,
+                          ),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            ListTile(
+                              title: Text(
+                                '${snapshot.data.results.location.city}',
+                              ),
+                              subtitle:
+                                  Text(snapshot.data.results.location.country),
+                              trailing: Text(
+                                '${f.format(snapshot.data.results.datetime[0].date.gregorian)}',
+                                textAlign: TextAlign.center,
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -64,9 +71,12 @@ class _JadwalSholatState extends State<JadwalSholat> {
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
                               borderRadius: BorderRadius.circular(40),
-                              color:Colors.white,
-
                             ),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -74,22 +84,28 @@ class _JadwalSholatState extends State<JadwalSholat> {
                                 Text(
                                   'ফজর',
                                   style: TextStyle(
-                                      fontSize: 30, ),
+                                    fontSize: 30,
+                                  ),
                                 ),
                                 Text(
                                   snapshot.data.results.datetime[0].times.fajr,
                                   style: TextStyle(
-                                      fontSize: 30, ),
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ],
                             ),
                           ),
                           Container(
-
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
-                              color:Colors.white,
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(40),
                             ),
                             child: Column(
@@ -103,7 +119,8 @@ class _JadwalSholatState extends State<JadwalSholat> {
                                   snapshot
                                       .data.results.datetime[0].times.sunrise,
                                   style: TextStyle(
-                                      fontSize: 30, ),
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ],
                             ),
@@ -121,22 +138,24 @@ class _JadwalSholatState extends State<JadwalSholat> {
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
-                              color:Colors.white,
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(40),
-
                             ),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
                                   'যোহর',
-                                  style: TextStyle(
-                                      fontSize: 30),
+                                  style: TextStyle(fontSize: 30),
                                 ),
                                 Text(
                                   snapshot.data.results.datetime[0].times.dhuhr,
-                                  style: TextStyle(
-                                      fontSize: 30),
+                                  style: TextStyle(fontSize: 30),
                                 ),
                               ],
                             ),
@@ -145,9 +164,13 @@ class _JadwalSholatState extends State<JadwalSholat> {
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
-                              color:Colors.white,
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(40),
-
                             ),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -158,8 +181,7 @@ class _JadwalSholatState extends State<JadwalSholat> {
                                 ),
                                 Text(
                                   snapshot.data.results.datetime[0].times.asr,
-                                  style: TextStyle(
-                                      fontSize: 30),
+                                  style: TextStyle(fontSize: 30),
                                 ),
                               ],
                             ),
@@ -177,9 +199,13 @@ class _JadwalSholatState extends State<JadwalSholat> {
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
-                              color:Colors.white,
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(40),
-
                             ),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -188,14 +214,14 @@ class _JadwalSholatState extends State<JadwalSholat> {
                                   'মাগরিব',
                                   style: TextStyle(
                                     fontSize: 30,
-
                                   ),
                                 ),
                                 Text(
                                   snapshot
                                       .data.results.datetime[0].times.maghrib,
                                   style: TextStyle(
-                                      fontSize: 30,),
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ],
                             ),
@@ -204,21 +230,26 @@ class _JadwalSholatState extends State<JadwalSholat> {
                             height: 120,
                             width: queryData.size.width * .4,
                             decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("images/arabicpattern1.JPG"),
+                                fit: BoxFit.cover,
+                                alignment: Alignment.topCenter,
+                              ),
                               borderRadius: BorderRadius.circular(40),
-                              color:Colors.white,
+                              color: Colors.white,
                             ),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
                                   'ইশা',
-                                  style: TextStyle(
-                                      fontSize: 30),
+                                  style: TextStyle(fontSize: 30),
                                 ),
                                 Text(
                                   snapshot.data.results.datetime[0].times.isha,
                                   style: TextStyle(
-                                      fontSize: 30,),
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ],
                             ),
