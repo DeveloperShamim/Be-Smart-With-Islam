@@ -1,7 +1,6 @@
 import 'package:al_quran/data/location.dart';
 import 'package:al_quran/data/models/jadwalsholat.dart';
 import 'package:al_quran/data/services.dart';
-import 'package:al_quran/data/utils/style.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';

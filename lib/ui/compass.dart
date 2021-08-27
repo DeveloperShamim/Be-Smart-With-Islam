@@ -56,8 +56,8 @@ class _CompassState extends State<Compass> {
       padding: const EdgeInsets.all(16.0),
       child: Row(
         children: <Widget>[
-          FlatButton(
-            color: Colors.white,
+          ElevatedButton(
+            // color: Colors.white,
             child: Text('স্থানাঙ্ক দেখুন'),
             onPressed: () async {
               final double tmp = await FlutterCompass.events.first;
@@ -133,7 +133,7 @@ class _CompassState extends State<Compass> {
           Spacer(),
           SizedBox(
             width: double.infinity,
-            child: OutlineButton(
+            child: OutlinedButton(
               child: Text('Request Permissions'),
               onPressed: () async {
                 await Permission.locationWhenInUse

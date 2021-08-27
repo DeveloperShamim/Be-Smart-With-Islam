@@ -22,13 +22,13 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             title: Text("Confirm"),
             content: Text("Do you want to exit?"),
             actions: [
-              RaisedButton(
+              ElevatedButton(
                 child: Text("No"),
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("Yes"),
                 onPressed: () {
                   SystemNavigator.pop();
