@@ -71,6 +71,7 @@ class _DetailSurahState extends State<DetailSurah> {
                                   ),
                                   child: Text(
                                     snapshot.data.text.keys.elementAt(i),
+
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -93,9 +94,13 @@ class _DetailSurahState extends State<DetailSurah> {
                                 children: <Widget>[
                                   AppStyle.spaceH10,
                                   AppStyle.spaceH5,
+
                                   Text(
+
                                     snapshot.data.translations.id.text[key],
+                                    textAlign: TextAlign.justify,
                                     style: TextStyle(
+
                                       fontSize: ui.fontSizetext,
                                     ),
                                   ),

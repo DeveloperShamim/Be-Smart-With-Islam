@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class CardDoa extends StatelessWidget {
   const CardDoa({
@@ -25,6 +26,7 @@ class CardDoa extends StatelessWidget {
       child: Card(
         elevation: 3.0,
         child: Container(
+
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage("images/arabicpattern1.JPG"),
@@ -34,6 +36,13 @@ class CardDoa extends StatelessWidget {
           ),
           padding: EdgeInsets.all(6),
           child: ListTile(
+            onLongPress: (){
+
+              Clipboard.setData(
+                ClipboardData(text:title+"  "+arabic+"উচ্চারণ :"+latin+"অর্থ : "+translate),
+              );
+
+            },
             title: Text(
               title,
               style: TextStyle(
@@ -51,13 +60,14 @@ class CardDoa extends StatelessWidget {
                         arabic,
                         textAlign: TextAlign.right,
                         style: TextStyle(
+
                             height: 1.5,
-                            fontSize: 24,
+                            fontSize: 22,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         'উচ্চারণ :  ' + latin,
-                        textAlign: TextAlign.start,
+                        textAlign: TextAlign.justify,
                         style: TextStyle(
                             height: 1.5,
                             fontSize: 14,
@@ -69,6 +79,7 @@ class CardDoa extends StatelessWidget {
                 if (terjemahan)
                   Text(
                     "অর্থ : " + translate,
+                    textAlign: TextAlign.justify,
                     style: TextStyle(
                       height: 1.5,
                       fontSize: 14,

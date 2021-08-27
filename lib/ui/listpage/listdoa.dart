@@ -22,6 +22,7 @@ class _ListDoaState extends State<ListDoa> {
         builder: (c, snapshot) {
           return snapshot.hasData
               ? ListView(
+
                   children: snapshot.data
                       .map((du) => CardDoa(
                             title: du.title,
